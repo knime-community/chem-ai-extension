@@ -15,3 +15,11 @@ fluoric_category = knext.category(
     description="Nodes for predicting chemical properties in fluorine molecules.",
     icon="icons/fluorine_icon.png",
 )
+
+yield_category = knext.category(
+    path=main_category,
+    level_id="yield_predictors",
+    name="Yield Predictor",
+    description="Nodes for predicting yield in percentage in reactions.",
+    icon="icons/fluorine_icon.png",
+)
